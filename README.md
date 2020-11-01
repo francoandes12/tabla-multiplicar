@@ -1,15 +1,19 @@
 ## CONSOLE APP MULTIPLICAR
 
+## DESCRIPCION
 Es una aplicacion para generar una tabla de multiplicar en consola
-Pasos para su uso:
+## PASOS PARA SU USO
 1-Bajar el codigo y ejectuar npm install,para bajar todas las dependencias de la app
 2-correr el comando node app seguido de alguno de los siguientes comandos:
+## COMANDOS
 -listar
 -crear
 Ambos reciben dos parametros correspondientes a la base y al limite
+## PARAMETROS
 Se los puede pasar de la siguiente forma: --base numero --limite numero
 o en su forma abreviada: -b numero -l numero
 El limite es opcional, en caso de no pasarle el parametro,tomara el valor por defecto de 10.
+## EJEMPLOS
 Ejemplo: 
 node app crear -b 4 -l 7
 El ejemplo nos generara un archivo .txt con la tabla del 4, hasta el 7.
